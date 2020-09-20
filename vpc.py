@@ -51,4 +51,4 @@ Assroute = client.associate_route_table(
 Routentry = client.create_route(
 	DestinationCidrBlock='0.0.0.0/0',
 	GatewayId=myIWG['InternetGateway']['InternetGatewayId'],
-	RouteTableId=myroute['RouteTable']['RouteTableId']
+	RouteTableId=myroute['RouteTable']['RouteTableId'])
